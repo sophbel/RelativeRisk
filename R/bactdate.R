@@ -10,7 +10,7 @@
 #' @return plot of Gubbin tree
 #' @export
 plt_gubbin_tree = function(gubbin_tree){
-  plt_tree = plot(gpsc8_tree, "c",FALSE, cex=0.6, no.margin = TRUE)
+  plt_tree = plot(gubbin_tree, "c",FALSE, cex=0.6, no.margin = TRUE)
   return(plt_tree)
 }
 
